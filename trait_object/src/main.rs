@@ -20,7 +20,8 @@ fn main() {
     let screen1 = Screen1 {
         components: vec![Box::new(A(1)), Box::new(B(2))],
     };
-    let screen2 = Screen2 {
-        components: vec![A(1), B(2)],
-    };
+// !!! COMPILE ERROR
+//    let screen2 = Screen2 {
+//        components: vec![A(1), B(2)],
+//    };
 }
